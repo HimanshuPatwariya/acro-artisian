@@ -1,37 +1,33 @@
 // src/components/Header.tsx
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { useAuth } from '../Lib/AuthContext'; // Import useAuth
-import { signOut } from '../Lib/firebase'; // Import signOut
+import { useAuth } from '../Lib/AuthContext';
+import { signOut } from '../Lib/firebase';
+import { FC } from 'react';
 
-const Header = () => {
+const Header: FC = () => {
   const router = useRouter();
-  const auth = useAuth(); // Get the auth instance from context
+  const auth = useAuth();
 
-  const handleSignOut = async () => {
+  const handleSignOut = async (): Promise<void> => {
     try {
-      await signOut(auth); // Sign out using Firebase
-      router.push('/Login'); // Redirect to login or any other route after sign out
+      await signOut(auth);
+      router.push('/Login');
     } catch (error) {
       console.error('Error signing out:', error);
     }
   };
 
   return (
-    <header className="bg-[#192734] p-4 flex items-center justify-between">
-      <div className="flex items-center">
-        <Image
-          src="/Logo/Frame 4.png" // Path to your logo
-          alt="Logo"
-          width={120} // Adjust width as needed
-          height={40} // Adjust height as needed
-          className="rounded-md"
-        />
+    <header className="bg-[#192734] p-4 px-8 flex items-center shadow-lg">
+      <div className="flex-1">
+        <Link href="/" className="text-white font-bold text-2xl hover:text-[#1DA1F2] transition-colors duration-300 ease-in-out">
+          Local Artision
+        </Link>
       </div>
       <button
         onClick={handleSignOut}
-        className="text-white bg-red-600 px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none"
+        className="text-white bg-red-600 px-6 py-2 rounded-full hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-500 transition-all duration-200 ease-in-out shadow-md"
       >
         Sign Out
       </button>

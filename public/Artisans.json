@@ -1,40 +1,37 @@
-
-
 [
-    {
-      "img": "/flipImages/artificial-intelligence-chip.png",
+  {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQVlnyrsLk4Fit9XS-Y4vWLw0JhqDvcJhUQ&s",
       "topic": "Introduction to Rocket Science",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/atom.png",
+  },
+  {
+      "img": "https://www.caleidoscope.in/wp-content/uploads/2015/10/Madhubani-Painting.jpg",
       "topic": "Astro Physics",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/rocket.png",
+  },
+  {
+      "img": "https://quirkywanderer.com/wp-content/uploads/2020/10/Arts-and-Crafts-of-India-raghurajpur.jpg",
       "topic": "Artificial Intelligence",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/telescope 1.png",
+  },
+  {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR0mA08F2fXHV6iSmRY0OMC9tWAPort3pSIQ&s",
       "topic": "Astro Physics",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/atom.png",
+  },
+  {
+      "img": "https://vliving.in/a/blog/media/516319-2.myshopify.com/Post/featured_img/art-of-Kantha-2.jpg",
       "topic": "Astro Physics",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/rocket.png",
+  },
+  {
+      "img": "https://quirkywanderer.com/wp-content/uploads/2020/10/Arts-and-Crafts-of-India-raghurajpur.jpg",
       "topic": "Artificial Intelligence",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    },
-    {
-      "img": "/flipImages/telescope 1.png",
+  },
+  {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR0mA08F2fXHV6iSmRY0OMC9tWAPort3pSIQ&s",
       "topic": "Astro Physics",
       "summary": "Covers fundamentals, design, construction, operation and programming of robots."
-    }
-  ]
-  
+  }
+]
